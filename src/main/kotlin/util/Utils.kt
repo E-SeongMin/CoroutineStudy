@@ -14,6 +14,6 @@ fun printJobState(job: Job) {
         "Job State\n" +
         "isActive >> ${job.isActive}\n" +
         "isCancelled >> ${job.isCancelled}\n" +
-        "isCompleted >> ${job.isCompleted}\n"
+        "isCompleted >> ${job.isCompleted}"
     )
 }
